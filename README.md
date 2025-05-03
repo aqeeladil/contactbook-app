@@ -2,6 +2,10 @@
 
 A simple and secure web-based Contact Book built with Django. Users can register, log in, and manage their personal contacts (add, view, update, delete). Each user's data is private and isolated.
 
+Access the application at, [Contact Book App](https://www.aqeeladil.site).
+
+For the video demo, [click here](https://www.awesomescreenshot.com/video/38436796?key=f0b540f8416dc4089e47a568b2f90c15).
+
 ---
 
 ## 🔧 Features
@@ -56,6 +60,18 @@ pip install -r requirements.txt
 
 # Start Command:
 gunicorn contactbook.wsgi
+```
+
+---
+
+## 📜 .env Example
+
+```python
+SECRET_KEY=your_secret_key_here
+
+DEBUG=False
+
+ALLOWED_HOSTS=example.com,www.example.com,localhost,127.0.0.1
 ```
 
 ```

@@ -1,3 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}Contacts - Contact Book App{% endblock %}
+
+{% block content %}
 <h2>Your Contacts</h2>
 
 <div style="display: flex;">
@@ -19,7 +24,6 @@
     </form>
 </div>
 
-
 <div>
     <ul>
         {% for contact in contacts %}
@@ -33,3 +37,4 @@
         {% endfor %}
     </ul>
 </div>
+{% endblock %}
