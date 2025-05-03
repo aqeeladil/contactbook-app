@@ -4,7 +4,7 @@ A simple and secure web-based Contact Book built with Django. Users can register
 
 Access the application at, [Contact Book App](https://www.aqeeladil.site).
 
-For the video demo, [click here](https://www.awesomescreenshot.com/video/38436796?key=f0b540f8416dc4089e47a568b2f90c15).
+For the video demo, [click here](https://www.awesomescreenshot.com/video/39426736?key=a2add7e5905c0a591889d8c9394d7ac9).
 
 ---
 
