@@ -1,0 +1,35 @@
+<h2>Your Contacts</h2>
+
+<div style="display: flex;">
+    <form method="get" style="display: inline;">
+        <input type="text" name="q" placeholder="Search by name or email" value="{{ request.GET.q }}">
+        <button type="submit">Search</button>
+    </form>
+
+    {% if request.GET.q %}
+        <a href="{% url 'contact_list' %}" style="margin-left: 10px;">Clear Search</a>
+    {% endif %}
+</div>
+
+<div style="margin-top: 7px;">
+    <a href="{% url 'add_contact' %}">Add Contact</a>
+    <form method="post" action="{% url 'logout' %}" style="display:inline; margin-left: 10px;">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+</div>
+
+
+<div>
+    <ul>
+        {% for contact in contacts %}
+            <li>
+                <a href="{% url 'view_contact' contact.pk %}">{{ contact.name }}</a> - {{ contact.email }}
+                [<a href="{% url 'update_contact' contact.pk %}">Edit</a>]
+                [<a href="{% url 'delete_contact' contact.pk %}">Delete</a>]
+            </li>
+        {% empty %}
+            <li>No contacts found.</li>
+        {% endfor %}
+    </ul>
+</div>
