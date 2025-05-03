@@ -1,8 +1,8 @@
 
 # Python
-__pycache__/
-*.py[cod]
-*.log
+# __pycache__/
+# *.py[cod]
+# *.log
 
 # Virtualenv
 venv/
@@ -11,8 +11,8 @@ env/
 .venv/
 
 # Django
-db.sqlite3
-*.sqlite3
+# db.sqlite3
+# *.sqlite3
 
 # Editor folders
 .vscode/
