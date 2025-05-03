@@ -51,11 +51,8 @@ python manage.py runserver
 ## 📚 Render Deployment (Optional) 
 
 ```bash
-# Root Directory: 
-contactbook/     # (Render supports setting subdirectories)
-
 # Build Command:
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 
 # Start Command:
 gunicorn contactbook.wsgi
