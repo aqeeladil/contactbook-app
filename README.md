@@ -55,6 +55,8 @@ python manage.py runserver
 ## 📚 Render Deployment (Optional) 
 
 ```bash
+# To make the application work properly and avoid complexity, we have exposed our database "db.sqlite3" to the public github repo (Not recommended for a real project).
+
 # Build Command:
 pip install -r requirements.txt
 
