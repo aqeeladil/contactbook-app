@@ -6,6 +6,8 @@ Access the application at, [Contact Book App](https://www.aqeeladil.site).
 
 For the video demo, [click here](https://www.awesomescreenshot.com/video/39426736?key=a2add7e5905c0a591889d8c9394d7ac9).
 
+To view the API only version, checkout [contactbook-rest-api](https://www.awesomescreenshot.com/video/39426736?key=a2add7e5905c0a591889d8c9394d7ac9).
+
 ---
 
 ## 🔧 Features
